@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Peter Hu
+	email = 44376800+PeterBohai@users.noreply.github.com
+	
+[core]
+	editor = subl -n -w
+
+[credential]
+	helper = store
+
+[alias]
+	s = status
+
+	# Show the user email for the current repository.
+	whoami = config user.email
+	
+	# List aliases.
+	alias = config --get-regexp alias

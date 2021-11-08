@@ -1,0 +1,18 @@
+# ========= Files or Directory Shortcuts ========= #
+alias zprofile="subl $HOME/dotfiles/.zprofile"
+alias zshrc="subl $HOME/dotfiles/.zshrc"
+alias aliases="subl $HOME/dotfiles/.aliases"
+alias aliases-personal="subl $HOME/dotfiles/.aliases-personal"
+alias gitconfig="subl $HOME/dotfiles/.gitconfig"
+alias vimrc="subl $HOME/dotfiles/.vimrc"
+
+alias desktop="cd $HOME/Desktop/"
+
+# ========= Command Abbreviations ========= #
+alias ll="ls -alG"
+alias h="history"
+alias ..="cd .."
+
+if [ -f ~/.aliases-personal ]; then
+    source ~/.aliases-personal
+fi
